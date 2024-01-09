@@ -1,0 +1,819 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #C3BCB2;
+}
+#main{
+    background-color: #222;
+    overflow-x: hidden;
+    width: 100%;
+    height: auto;
+}
+/* ===================================page1============================== */
+#page1{
+    height: 160vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+    background-color: #C3BCB2;
+}
+nav{
+    height: 5vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+    border-bottom: 1px solid #222;
+}
+nav > img{
+    height: 18px;
+    width: 30%;
+}
+nav > h5{
+    font-size: 13px;
+    font-weight: 100;
+    width: 30%;
+}
+nav >i{
+    width: 30%;
+    text-align: right;
+}
+#elems{
+    height: 49vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4vh 4vw;
+}
+#elem1{
+    width: 30vw;
+    height: 100%;
+    margin-left: 0;
+}
+
+#elem2{
+    width: 30vw;
+    height: 40vh;
+    border-right: 1px solid #585858;
+    border-left: 1px solid #585858;
+    padding: 2vh 2vw;
+    text-align: center;
+    margin: 0 2vw;
+    
+}
+#elem3{
+    width: 30vw;
+    height: 100%;
+    margin-right: 0;
+}
+#imageDiv{
+    width: 100%;
+    height: 55%;
+    overflow: hidden;
+    border: 1px solid #222;
+}
+#imageDiv >img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    
+}
+#imageDiv >img:hover{
+    scale: 1.1;
+}
+#elem1>h4{
+    font-size: 1.6vw;
+    font-weight: 100;
+    margin: 2vh 0vh;
+    font-family: 'canopee';
+    color: #222;
+}
+#elem1>h4>span{
+    background-color: #B73C12;
+    color: #C2BBB1;
+    font-weight: 100;
+    font-size: 1.2vw;
+    border-radius: 3px;
+    margin-left: 0.3vw;
+    padding: 0.2vw;
+    position: relative;
+    bottom: 0.5vh;
+}
+#elem1>p{
+    font-size: 1.2vw;
+    font-family: 'Editorial New Light';
+}
+#elem2 >h2{
+    font-size: 4vw;
+    font-family: 'canopee';
+    font-weight: 100;
+    margin-bottom: 10px;
+    color: #1C1C19;
+    letter-spacing: -0.1vw;
+}
+#elem2 >h3{
+    font-size: 2.5vw;
+    font-family: 'Editorial New Light';
+    letter-spacing: -0.1vw;
+    margin-bottom: 15px;
+    font-weight: 100;
+    color: #1C1C1A;
+}
+#elem2 >h6{
+    font-size: 1.4vw;
+    font-family: 'Domain Disp Cond Medium';
+    font-weight: 100;
+    letter-spacing:-0.15vw;
+    color: #393838;
+}
+#elem2 >h6>span{
+    font-family: 'canopee';
+    letter-spacing:-1px;
+    color: #1C1C19;
+}
+#elem3>h4{
+    font-size: 1.6vw;
+    font-weight: 100;
+    margin: 2vh 0vh;
+    font-family: 'canopee';
+    color: #222;
+}
+#elem3>h4>span{
+    background-color: #B73C12;
+    color: #C2BBB1;
+    font-weight: 100;
+    font-size: 1.2vw;
+    border-radius: 3px;
+    margin-left: 0.3vw;
+    padding: 0.2vw;
+    position: relative;
+    bottom: 0.5vh;
+}
+#elem3>p{
+    font-size: 1.2vw;
+    font-family: 'Editorial New Light';
+}
+#page1 h1{
+    width: 96vw;
+    height: 69vh;
+    line-height: 70vh;
+    font-size: 38vw;
+    font-weight: 200;
+    letter-spacing: -2vw;
+    font-family: 'canopee';
+    background-color: #1C1C1A;
+    color: #C5BEB3;
+    margin: 3vh 2vw;
+}
+/* =======================page2================================ */
+#page2{
+    height: 150vh;
+    width: 100vw;
+    background-color: #C3BCB2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page2left{
+    width: 30vw;
+    height: 150vh;
+    padding-right: 2vw;
+    position: relative;
+    top: -17vh;
+    right: 2vw;
+
+}
+#page2left >h2{
+    font-family: 'canopee';
+    font-size: 7.5vw;
+    width: 100%;
+    height: 40vh;
+    letter-spacing: -5px;
+    color: #1C1C1A;
+    line-height: 18vh;
+}
+#page2left >h2>span{
+    font-size: 170%;
+    text-align: center;
+}
+#page2left >img{
+    width: 30vw;
+    height: 70vh;
+    border: 1px solid #222;
+}
+#page2left >p{
+    width: 28vw;
+    font-size: 1.9vw;
+    font-family: 'Editorial New Light';
+    font-weight: 500;
+    height: 40vh;
+    color: #1C1C1A;
+    margin: 2vw;
+    margin-top: 4vw;
+    scale: 1.1;
+}
+#page2left >p>span{
+    font-size: 6vw;
+    background-color: #1C1C1A;
+    font-family: 'canopee';
+    color: white;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    padding: 0 4px;
+}
+
+#page2right{
+    width: 62vw;
+    height: 150vh;
+    padding-left: 3vw;
+    border-left: 1px solid #222;
+    position: relative;
+    top: -17vh;
+    left: 1vw;
+}
+#page2right >img{
+    width: 100%;
+    height: 88vh;
+    margin-bottom: 2vh;
+    border: 1px solid #222;
+} 
+#page2right >h1{
+    color: #1C1C1A;
+    font-size: 7vw;
+    width: 100%;
+    height: 58vh;
+    margin-top: 2vh;
+    font-family: 'canopee';
+    text-transform: uppercase;
+}
+/* =========================page3================================= */
+#page3{
+    width: 100%;
+    height: 50vh;
+    background-color: #C3BCB2;
+}
+#page3a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+#page3 >#page3a > h1{
+    font-size: 27.5vw;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: -0.7vw;
+    line-height: 50vh;
+    width: 70vw;
+    background-color: #1C1C1A;
+    color: #C3BCB2;
+    font-family: 'canopee';
+    padding: 0vh 0vw;
+    position: relative;
+    bottom: 8vh;
+}
+#page3 >#page3a >img{
+    width: 20%;
+    position: relative;
+    bottom: 8vh;
+    margin: 2vw;
+}
+/* =====================================page4=============================== */
+#page4{
+    background-color: #C3BCB2;
+    width: 100vw;
+    height: 140vh;
+    display: flex;
+    padding-bottom: 10vh;
+}
+#page4Left{
+    width: 62vw;
+    margin: 0vh 1vw;
+    height: 130vh;
+}
+#page4Right{
+    width: 34vw;
+    height: 130vh;
+    margin: 0vh 1vw;
+    border-left: 1px solid #222;
+}
+#page4LeftUpper{
+    width: 60vw;
+    height: 40vh;
+    display: flex;
+}
+#page4LeftLower{
+    width: 60vw;
+    height: 90vh;
+}
+
+#page4LeftUpperLeft{
+    width: 26vw;
+    height: 38vh;
+    margin: 1vh 1vw;
+    text-align: start;
+    border-right: 1px solid #222;
+}
+#page4LeftUpperLeft>h2{
+    font-size: 4vw;
+    font-family: 'canopee';
+    font-weight: 100;
+    margin-bottom: 10px;
+    color: #1C1C19;
+    letter-spacing: -0.1vw;
+}
+#page4LeftUpperLeft>h3{
+    font-size: 2.5vw;
+    font-family: 'Editorial New Light';
+    letter-spacing: -0.1vw;
+    margin-bottom: 15px;
+    font-weight: 100;
+    color: #1C1C1A;
+}
+#page4LeftUpperLeft>h6{
+    font-size: 1.4vw;
+    font-family: 'Domain Disp Cond Medium';
+    font-weight: 100;
+    letter-spacing:-0.15vw;
+    color: #393838;
+}
+#page4LeftUpperLeft>h6>span{
+    font-family: 'canopee';
+    letter-spacing:-1px;
+    color: #1C1C19;
+}
+#page4LeftUpperRight{
+    width: 30vw;
+    height: 38vh;
+    margin: 1vh 1vw;
+    padding: 1vh 1vw;
+}
+#page4LeftUpperRight>div{
+    width: 28vw;
+    height: 25vh;
+    overflow: hidden;
+    border: 1px solid #222;
+    
+}
+#page4LeftUpperRight>div>img{
+    transition: 0.6s;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+#page4LeftUpperRight>div>img:hover{
+    scale: 1.1;
+}
+#page4LeftUpperRight>h3{
+    font-size: 2vw;
+    letter-spacing: -0.3vw;
+    color: #1C1C1A;
+}
+#page4LeftUpperRight>h4{
+    font-size: 1vw;
+    font-weight: 100;
+    color: #403E3B;
+}
+#page4Left>#page4LeftLower>img{
+    width: 58vw;
+    height: 88vh;
+    margin:1vh 1vw;
+    border:1px solid #222;
+}
+#page4Right>h1{
+    width: 32vw;
+    height: 36vh;
+    margin: 1vh 1vw;
+    font-size: 6.2vw;
+    font-family: 'canopee';
+    font-weight: 100;
+    letter-spacing: -0.2vw;
+    padding: 2vh 2vw;
+}
+#page4Right>h1>span{
+    font-size: 199%;
+    position: relative;
+    bottom: 5vh;
+}
+#page4Right>h2{
+    width: 32;
+    height: 26vh;
+    margin: 1vh 1vw;
+    font-size: 2.15vw;
+    font-family: 'Editorial New Light';
+    font-weight: 100;
+    letter-spacing: -0.1vw;
+    padding: 1vh 3vw;
+}
+#page4Right>h2>span{
+    font-size: 6vw;
+    font-weight: 100;
+    font-family: 'canopee';
+    background-color: #1C1C1A;
+    color: #C1BAB1;
+    letter-spacing: -0.1vw;
+    text-align: center;
+    float: left;
+    padding: 0 4px;
+    margin: 2px;
+    line-height: 12vh;
+}
+#page4Right>h3{
+    width: 32;
+    height: 36vh;
+    margin: 1vh 1vw;
+    font-size: 2vw;
+    font-family: 'Editorial New Light';
+
+    font-weight: 100;
+    letter-spacing: -0.1vw;
+    padding: 1vh 3vw;
+}
+#page4Right>#anda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 32;
+    height: 26vh;
+    margin: 1vh 1vw;
+    border: 1px solid #222;
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+}
+#page4Right>#anda>h4{    
+    width: 100%;
+    height: 100%;
+    color: #1C1C1A;
+    font-size: 5.5vw;
+    font-family: 'canopee';
+    letter-spacing: -0.1vw;
+    text-align: center;
+    padding-top: 6vh;
+    transform: translateX(-20%);
+    transition: ease-out 0.2s;
+}
+#page4Right>#anda>img{
+    height: 6vh;
+    transform: translateX(-120%);
+    transition: ease-out 0.2s;
+}
+#page4Right>#anda:hover >img{
+    transform: translateX(120%);
+}
+#page4Right>#anda:hover >h4{
+    transform: translateX(120%);
+}
+/* =========================page5================================ */
+#page5{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #C3BCB2;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4vh 1vw;
+}
+.box>.innerDiv>h2{
+    font-size: 2vw;
+    font-weight: 100;
+    font-family: 'Editorial New Light';
+    letter-spacing: -0.1vw;
+    position: relative;
+    top: 8px;
+
+}
+.box>.innerDiv>h3{
+    font-size: 5vw;
+    font-family: 'canopee';
+
+}
+.box>h1{
+    font-size: 10vw;
+    margin: 2px;
+    position: relative;
+    bottom: 2px;
+}
+/* ===================================page6=========================== */
+#page6{
+    background-color: #C3BCB2;
+    width: 100vw;
+    height: 110vh;
+    padding-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#page6Left{
+    width: 48vw;
+    height: 90vh;
+    margin: 1vw 5vh;
+    margin-left: 5vw;
+    font-family: 'canopee';
+    color: #1D1D1B;
+}
+#page6Right{
+    width: 48vw;
+    height: 90vh;
+    margin: 1vw 5vh;
+}
+#page6LeftUpper{
+    height: 45vh;
+    width: 48vw;
+    display: flex;
+}
+#page6LeftUpper>img{
+    height: 40.5vh;
+    width: 13vw;
+    margin: 1vh 1vw;
+    border: 1px solid #222;
+}
+#page6LeftUpper>h1{
+    font-size: 26vw;
+    position: relative;
+    bottom: 6.6vh;
+    right: 0.5vw;
+}
+#page6LeftLower{
+    height: 45vh;
+    width: 48vw;
+}
+#page6LeftLower>h1{
+    font-size: 26vw;
+    position: relative;
+    bottom: 6.6vh;
+    left: 1.25vw;
+}
+#page6Right>img{
+    width: 46vw;
+    height: 85.5vh;
+    margin: 1vh 1vw;
+    position: relative;
+    right: 4vw;
+}
+/* =====================================page7============================== */
+#page7{
+    height: 100vh;
+    width: 100vw;
+    padding: 2vh 2vw;
+    background-color: #C3BCB2;
+}
+#page7Upper{
+    height: 48vh;
+    width: 96vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1D1D1B;
+}
+#page7Lower{
+    height: 48vh;
+    width: 96vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1C1C1A;
+}
+#page7Upper>img{
+    width: 23vw;
+    height: 44vh;
+    margin: 0vh 1vw;
+    border: 1px solid #222;
+}
+#page7Upper>h1{
+    width: 75vw;
+    font-family: 'canopee';
+    font-size: 27vw;
+    letter-spacing: -1vw;
+    line-height: 45vh;
+    position: relative;
+    top: 0.5vw;
+}
+#page7Lower>h1{
+    width: 68vw;
+    height: 48vh;
+    margin: 0vh 1vw;
+    font-family: 'canopee';
+    font-size: 25.5vw;
+    letter-spacing: -1vw;
+    line-height: 45vh;
+    background-color: #1D1D1B;
+    color: #CDC6BE;
+    padding-top: 3vh;
+    text-align: center;
+}
+#page7Lower>div{
+    width: 30vw;
+    height: 48vh;
+}
+#page7Lower>div>p{
+    font-size: 1.7vw;
+    font-family: 'Editorial New Light';
+    margin: 0.2vh 0.2vw;
+}
+#page7Lower>div>h3{
+    font-size: 7vw;
+    font-family: 'canopee';
+    letter-spacing: -0.5vw;
+}
+/* ==============================page8============================= */
+#page8{
+    width: 100vw;
+    height: 70vh;
+    padding: 6vh 2vw;
+    background-color: #C3BCB2;  
+    position: relative;
+}
+.outline{
+    height: 55vh;
+    width: 42vw;
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 2vh;
+    transition: all ease-in-out 0.5s;
+}
+.dabbe{
+    width: 40vw;
+    height: 50vh;
+    padding: 4vh;
+    position: absolute;
+    border: 2px dashed black;
+    border-radius: 20px;
+    font-family: 'Editorial New Light';
+    font-size: 2.2vw;
+    margin: auto;
+}
+#dabba1{
+    left: 4%;
+    background-color: #C3BCB2;
+}
+#dabba2{
+    left: 20%;
+    background-color: #C3BCB2;
+}
+#dabba3{
+    left: 36%;
+    background-color: #C3BCB2;
+}
+#dabba4{
+    left: 52%;
+    background-color: #C3BCB2;
+}
+.founderDetails{
+    display: flex;
+    align-items: center;
+    justify-content: start;  
+    cursor: pointer;  
+}
+.founderDetails>img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 10px;
+    cursor: pointer;
+}
+.founderDetails>div{
+    display: flex;
+    flex-direction: column;
+}
+.founderDetails>div>h1,h2{
+    font-size: 60%;
+    
+}
+#founderDetId1{
+    position: relative;
+    top: 9vh;
+}
+#founderDetId2{
+    position: relative;
+    top: 9vh;
+}
+#founderDetId3{
+    position: relative;
+    top: 3vh;
+}
+#founderDetId4{
+    position: relative;
+    top: 9vh;
+}
+
+#linebg{
+    background-color: #C3BCB2;
+    padding: 1vh 4vw;
+
+}
+#line{
+    height: 1px;
+    background-color: grey;
+}
+/* ==================================page9================================ */
+#page9{
+    background-color: #C3BCB2;
+}
+/* =============================page10========================== */
+#page10{
+    height: 20vh;
+    width: 100vw;
+    background-color: #C3BCB2;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+    padding: 4vh;
+    text-align: center;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#page10::-webkit-scrollbar{
+    display:none;
+}
+
+#page10>h1{
+    font-size: 5vw;
+    font-weight: 100;
+    font-family: 'Editorial New Light';
+    color: #1D1D1B;
+    line-height: 12vh;
+    display: inline-block;
+    margin: 0 20px;
+    padding: 0vh 1vw;
+    animation: scroll;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+#page10>h1>span{
+    color: #C3BCB2;
+    background: #1D1D1B;
+    font-size: 5.5vw;
+    font-family: 'canopee';
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 4vh;    
+}
+footer{
+    height: 15vh;
+    background-color: #C3BCB2;
+    color: #1D1D1B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#footerLeft{
+    font-family: 'canopee';
+    margin: 10px;
+}
+#footerLeft>h1{
+    font-size: 1.5vw;
+    font-weight: 100;
+}
+#footerLeft>h1>span{
+    font-family: 'Editorial New Light';
+    font-size: 1.5vw;
+    margin: 0px 5px;
+    font-weight: 100;
+}
+#footerRight{
+    font-family: 'canopee';
+    font-size: 0.8vw;
+    margin: 20px;
+}
+#footerRight>h1{
+    font-weight: 100;
+}
+#footerLeft>h1>img{
+    margin: 0px 5px;
+    height: 25px;
+    width: 20px;
+}
+
+@keyframes scroll {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-50%  );
+    }
+}
+#page10>h1:hover{
+    animation-play-state: paused;
+}
