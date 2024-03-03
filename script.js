@@ -4,17 +4,17 @@ const scroll = new LocomotiveScroll({
 });
 function introAnim() {
     var tl = gsap.timeline();
-    tl.to("#page1", {
+    tl.to("#introAnimation", {
         y: "100vh",
         scale: 0.4,
         duration: 0
     })
-    tl.to("#page1", {
+    tl.to("#introAnimation", {
         y: "0vh",
         duration: 1,
         delay: 1
     })
-    tl.to("#page1", {
+    tl.to("#introAnimation", {
         rotate: -360,
         scale: 1,
         duration: 1
