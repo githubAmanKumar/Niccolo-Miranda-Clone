@@ -17,7 +17,7 @@ Javascript, GSAP(GreenSock Animation), Smooth Scrolling, HTML, CSS...
 ![App Screenshot](https://raw.githubusercontent.com/githubAmanKumar/Niccolo-Miranda-Clone/main/Screenshots/Screenshot2.png)
 
 ## Installation
-To install and run the Weather Web App locally, follow these steps:
+To install and run Web App locally, follow these steps:
 
 1. Clone the repository:
 
